@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Magic Circle!</title>
+	<meta charset="UTF-8">
+
+	<!-- Include JavaScript dependencies -->
+	<script src="./target/scala-2.12/com-baierl-magiccircle-jsdeps.js" type="text/javascript"></script>
+
+	</head>
+	<body style="height: 100%; width: 100%; overflow: hidden">
+
+	<!-- Include Scala.js compiled code -->
+	<script src="./target/scala-2.12/com-baierl-magiccircle-fastopt.js" type="text/javascript"></script>
+
+	<div id="content">
+	</div>
+
+	<script>
+	  main(document.getElementById('content'));
+	</script>
+
+</body>
+</html>
